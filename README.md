@@ -17,7 +17,7 @@ The tech-stack is composed of
 
 ---
 
-This was the brief details about this project. Make sure to give it a Try.
+This was a brief description of this project. Make sure to give it a Try.
 
 Always open for any suggestion and feedbacks.  
 _Thank You_ :)
