@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Codester | Contact</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="CSS/bootstrap.css" type="text/css" media="screen">
+<link rel="stylesheet" href="CSS/style.css" type="text/css" media="screen">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
+<script>
+jQuery(window).load(function () {
+    jQuery('.spinner').animate({
+        'opacity': 0
+    }, 1000, 'easeOutCubic', function () {
+        jQuery(this).css('display', 'none')
+    });
+});
+</script>
+
+</head>
+
+
+<body>
+<div class="spinner"></div>
+
+
+<!-- navbar -->
+
+ <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Apna Bank</a>
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav nav-fade">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href=about.html>About</a></li>
+        <li class="sub-menu"><a href="#policies">Policies</a>
+        </li>
+        <li><a href="blog.html">Forum</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="javascript:void(0)" onclick = "document.getElementById('sign-up-light').style.display='block';document.getElementById('sign-in-light').style.display='none';
+          document.getElementById('sign-in-fade').style.display='none';document.getElementById('sign-up-fade').style.display='block'">Signup  <i class="fa fa-user-plus"></i></a></li>
+        <li><a href="javascript:void(0)" onclick = "document.getElementById('sign-in-light').style.display='block';document.getElementById('sign-up-light').style.display='none';
+          document.getElementById('sign-up-fade').style.display='none';document.getElementById('sign-in-fade').style.display='block'">Login  <i class="fa fa-user"></i></a></li>
+      </ul>
+    </div>
+  </div>
+ </nav>
+
+    <div id="sign-in-light" class="white_content fade-in">
+      <br><br><br>
+      <h3>Sign In</h3>
+      <form>
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form> 
+      <br><br>
+
+      <a href="javascript:void(0)" onclick = "document.getElementById('sign-up-light').style.display='block';document.getElementById('sign-in-light').style.display='none';
+          document.getElementById('sign-in-fade').style.display='none';document.getElementById('sign-up-fade').style.display='block'">Sign Up &nbsp</a>
+
+      <a href = "javascript:void(0)" onclick = "document.getElementById('sign-in-light').style.display='none';
+      document.getElementById('sign-in-fade').style.display='none'">Close</a>
+    </div>
+    <div id="sign-in-fade" class="black_overlay"></div>
+
+
+
+    <div id="sign-up-light" class="white_content fade-in"> 
+        <h3>Register</h3>
+
+  <form>
+    <div class="form-group">
+      <label for="name">First Name:</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="John" required />
+      <label for="name">Last Name:</label>
+      <input type="text" class="form-control" name="name" id="name" placeholder="Smith" required />
+    </div>
+    
+     <div class="form-group">
+        <label for="name">Gender: &nbsp</label>
+        <label for="radio-choice-1">Male</label>
+        <input type="radio" name="radio-choice" id="radio-choice-1" value="choice-1" />
+
+        <label for="radio-choice-2">Female</label>
+        <input type="radio" name="radio-choice" id="radio-choice-2" value="choice-2" />
+
+       <label for="radio-choice-3">Other</label>
+        <input type="radio" name="radio-choice" id="radio-choice-3" value="choice-2" />
+     </div>
+
+    <div class="form-group">
+      <label for="username">Email:</label>
+      <input id="username" class="form-control" type="email" required placeholder="your email">
+
+      <label for="password">Password:</label>
+      <input type="password" class="form-control" pattern=".{5,10}"required title="5 to 10 characters">
+    </div>
+
+    <div class="form-group">
+      Date of Birth:
+       <input type="date" class="form-control" name="dob">
+    </div>
+
+    <div class="form-group">
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <label for="checkbox">I agree to the terms and conditions</label>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn btn-default">Submit</button>
+    </div>
+  </form> 
+      <a href="javascript:void(0)" onclick = "document.getElementById('sign-in-light').style.display='block';
+          document.getElementById('sign-up-light').style.display='none';
+          document.getElementById('sign-up-fade').style.display='none';
+          document.getElementById('sign-in-fade').style.display='block'">Sign In &nbsp</a>
+
+      <a href = "javascript:void(0)" onclick = "document.getElementById('sign-up-light').style.display='none';
+      document.getElementById('sign-up-fade').style.display='none'">Close</a>
+    </div>
+    <div id="sign-up-fade" class="black_overlay"></div>
+
+
+ 
+<div class="bg-content">
+  <!-- content -->
+  <div id="content">
+    <div class="ic"></div>
+    <div class="container">
+      <div class="row">
+        <article class="span8">
+          <h3>Contact us</h3>
+          <div class="inner-1">
+            <form id="contact-form" action="#">
+              <div class="success"> Your message has been sent succesfuly!<strong> We will be in touch soon.</strong> </div>
+              <fieldset>
+                <div>
+                  <label class="name">
+                    <input type="text" value="Your name">
+                    <br>
+                    <span class="error">*This is not a valid name.</span> <span class="empty">*This field is required.</span> </label>
+                </div>
+                <div>
+                  <label class="phone">
+                    <input type="tel" value="Telephone">
+                    <br>
+                    <span class="error">*This is not a valid phone number.</span> <span class="empty">*This field is required.</span> </label>
+                </div>
+                <div>
+                  <label class="email">
+                    <input type="email" value="Email">
+                    <br>
+                    <span class="error">*This is not a valid email address.</span> <span class="empty">*This field is required.</span> </label>
+                </div>
+                <div>
+                  <label class="message">
+                    <textarea>Message</textarea>
+                    <br>
+                    <span class="error">*The message is too short.</span> <span class="empty">*This field is required.</span> </label>
+                </div>
+                <div class="buttons-wrapper"> <a class="btn btn-1" data-type="reset">Clear</a> <a class="btn btn-1" data-type="submit">Send</a></div>
+              </fieldset>
+            </form>
+          </div>
+        </article>
+        <article class="span4">
+          <h3>Contact info</h3>
+          <div class="map"> <a href="#"><img src="img/map.jpg" alt=""></a> </div>
+          <address class="address-1">
+          <strong>Inbetwin Networks,<br>
+          Paud Phata, Road,<br>
+          Kothrud, Pune-38.</strong>
+          <div class="overflow"> <span>Mobile:</span>+91 12345 67890<br>
+            <span>Telephone:</span>+91 12345 67890<br>
+            <span>FAX:</span>+91 12345 67890 <br>
+            <span>E-mail:</span> <a href="#" class="mail-1">you@domain.com</a><br>
+            <span>Skype:</span> <a href="#" class="mail-1">@woohooo</a></div>
+          </address>
+        </article>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- footer -->
+<footer>
+  <div class="container clearfix">
+    <ul class="list-social pull-right">
+      <li><a class="icon-1" href="#"></a></li>
+      <li><a class="icon-2" href="#"></a></li>
+      <li><a class="icon-3" href="#"></a></li>
+      <li><a class="icon-4" href="#"></a></li>
+    </ul>
+    <div class="privacy pull-left">&copy; 2013 | <a href="http://www.dzyngiri.com">Dzyngiri</a> | Demo Illustrations by <a href="http://justinmezzell.com">Justin Mezzell</a></div>
+  </div>
+</footer>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
