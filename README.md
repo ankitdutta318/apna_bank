@@ -7,9 +7,9 @@ There are basicly four basic policies that are offered to the customers. One cus
 This project ensures the real time approach of policy management of a bank (for example the need of atleat 2 nominees, etc.)  
 
 The front-end is purely hand-crafted and is based on simple  
-__HTML 5__ __CSS 3__ __Bootstrap 4__  
+1. __HTML 5__  2. __CSS 3__  3. __Bootstrap 4__  
 The tech-stack is composed of  
-__PHP__ __jQuery__ __MySQL__
+1. __PHP__  2. __jQuery__  3. __MySQL__
 
 ---
 
